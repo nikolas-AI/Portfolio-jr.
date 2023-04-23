@@ -64,8 +64,16 @@ a {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #555;
     color: #fff;
-    padding: 10px;
     text-align: center;
+    height: 40px;
+    
+}
+footer p {
+    background-color: black;
 }
