@@ -19,6 +19,8 @@
 .introp {
     background-color: rgb(37, 228, 168);
     height: 180px;
+    border: 5px solid red;
+    border-radius: 45px;
 }
 .main {
     padding-bottom: 10px;
