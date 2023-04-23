@@ -21,10 +21,18 @@
     font-size: 2em;
     color: rgb(43, 238, 9);
     font-family: monospace;
+    transition: transform 1s , font-weight 1s;
 }
+.navic:hover {
+    transform:scale(1.3);
+}
+
 a {
     color: rgb(43, 238, 9);
     text-decoration: none;
+}
+.home span {
+    font-size: 40px;
 }
 .introp {
     background-color: rgb(37, 228, 168);
@@ -40,7 +48,8 @@ a {
     padding-top: 10px;
     font-family:'Courier New', Courier, monospace;
     font-size: 1.5em;
-    transition: transform 1s , font-weight 1s;
+    transition: transform 1s;
+
 }
 .main:hover {
     transform:scale(1.3);
@@ -60,11 +69,123 @@ a {
     margin: 5px;
 }
 .contap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     border: 5px solid red;
     border-radius: 45px;
-    background-color: rgb(221, 225, 156);
-    height: 180px;
+    background-color: #dde19c;
     margin: 5px;
+
+}
+.apps {
+    display: flex;
+    background-color: #dde19c;
+    padding: 7px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.buttonT  {
+    background-color: #dde19c; 
+    border: none;
+    width:35px;
+    border-radius: 100%;
+    display: flex;
+    justify-items: center;
+}
+.buttonT img {
+    background-color: #dde19c; 
+    width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    transition: transform 1s ;
+}
+.buttonT img:hover {
+    transform:scale(1.3);
+}
+
+
+.buttonF  {
+    display: flex;
+    justify-content: center;
+    background-color: #dde19c; 
+    border: none;
+    width:35px;
+    
+}
+.buttonF img {
+    background-color: #dde19c; 
+    width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: transform 1s ;
+}
+.buttonF img:hover {
+    transform:scale(1.3);
+}
+
+.buttonY  {
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    background-color: #dde19c; 
+    border: none;
+    width: 20px;
+
+}
+.buttonY img {
+    background-color: none; 
+    width: 70px;
+    max-height: 90px;
+    object-fit: contain;
+    padding-bottom:5px;
+    transition: transform 1s ;
+}
+.buttonY img:hover {
+    transform:scale(1.3);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label,
+input,
+select {
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+input,
+select {
+    padding: 10px;
+}
+
+label {
+    transition: transform  1s;
+}
+label:hover {
+    transform: scale(1.1,1.1);
+}
+.mybutton {
+    padding: 10px 20px;
+    background-color: #4292e8;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: transform 1s;
+    border-radius: 6px;
+}
+.mybutton:hover{
+    transform: scale(1.2,1.2);
+    background-color: #0b62f0;
 }
 
 footer {

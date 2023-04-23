@@ -1,5 +1,19 @@
 <html>
     <head>
+        <script>
+            function Click() {
+            alert('Thank you')
+            }
+            function twitter() {
+                window.open("https://twitter.com/ZEK_P7S5");
+            }
+            function facebook() {
+                window.open("https://www.facebook.com/WeShare.7545");
+            }
+            function youtube() {
+                window.open("http://youtube.com/@weshare7545");
+            }
+        </script>
         <link rel="stylesheet" href="prasiddha.css"> 
     </head>
     <title>Prasiddha's personal website</title>
@@ -8,6 +22,7 @@
         <div id="welc">Welcome to my website</div>
 
         <nav id="navi">
+            <div class="navic"><a href="home.html"><b>Home</b></a></div>
             <div class="navic"><a href="about.html"><b>Intro</b></a></div>
             <div class="navic"><a href="experience.html"><b>Experience</b></a></div>
             <div class="navic"><a href="contact.html"><b>Contact</b></a></div>
@@ -16,7 +31,30 @@
         <div class="contap">
             <div class="main">CONTACT:</div>
             <div class="text">
-                During my 10th grade, I conducted an independent research project on the effects of air pollution on human health. Through this project, I was able to hone my research skills and gain a deeper understanding of the impact of environmental factors on our well-being. This experience has inspired me to pursue further education in the field of environmental science, with the ultimate goal of contributing to solutions for pressing environmental challenges. In addition, I have also completed internships in the fields of marketing and communications, which have given me valuable insights into the professional world and have equipped me with skills such as project management, teamwork, and effective communication.
+                If you wanna get in touch, you can reach out to me through following portals.
+            </div>
+            <div class = "apps" >
+                <button class ='buttonT' onclick="twitter()" >
+                    <img   src="twitterl.png" alt="Twitter Logo">
+                </button>
+            
+                <button class ='buttonF' onclick="facebook()" >
+                    <img src="facebookl.png" alt="Facebook Logo">
+                </button>
+            
+                <button class ='buttonY' onclick="youtube()" >
+                    <img src="youtubel.png" alt="Youtube Logo">
+                </button>
+            </div>
+            <div class="text2">Or write a message for me.</div>
+            <div class="form">
+                <form target="_blank" method="post">
+                    <label for="name">Name:-</label>
+                    <input type="text" id="name" name="name" placeholder="Joe Scott" required>
+                    <label for="email">Email:-</label>
+                    <input type="email" id="email" name="email" placeholder="abc123@gmail.com" required>
+                    <button class="mybutton" onclick="Click()">Send</button>
+                </form>
             </div>
         </div>
         
