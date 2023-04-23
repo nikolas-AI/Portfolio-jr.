@@ -1,0 +1,15 @@
+#welc {
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: aqua;
+    height: 55px;
+    font-size: 3em;
+}
+#navi {
+    display: flex;
+    justify-content: space-around;
+}
+.navic {
+    font-size: 2em;
+}
