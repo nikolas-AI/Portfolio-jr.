@@ -9,7 +9,28 @@
 #navi {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(85, 83, 83);
 }
 .navic {
     font-size: 2em;
+    color: rgb(43, 238, 9);
+    font-family: monospace;
+}
+.introp {
+    background-color: rgb(221, 225, 156);
+    height: 180px;
+    border: red;
+}
+.main {
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+}
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.experp {
+    background-color: rgb(221, 225, 156);
+    height: 180px;
 }
