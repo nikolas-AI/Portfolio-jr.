@@ -21,22 +21,38 @@
     height: 180px;
     border: 5px solid red;
     border-radius: 45px;
+    margin: 5px;
 }
 .main {
+    width: 20px;
+    margin-left: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.8em;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    transition: transform 1s , font-weight 1s;
+}
+.main:hover {
+    transform:scale(1.3);
+    font-weight: bold;
 }
 .text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 5px;
 }
 
 .experp {
+    border: 5px solid red;
+    border-radius: 45px;
     background-color: rgb(225, 159, 108);
     height: 180px;
+    margin: 5px;
 }
 .contap {
+    border: 5px solid red;
+    border-radius: 45px;
     background-color: rgb(221, 225, 156);
     height: 180px;
+    margin: 5px;
 }
