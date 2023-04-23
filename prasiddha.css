@@ -62,3 +62,10 @@ a {
     height: 180px;
     margin: 5px;
 }
+
+footer {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
