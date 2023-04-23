@@ -1,3 +1,7 @@
+.container {
+    position: relative;
+    min-height: 100%;
+}
 #welc {
     display: flex;
     justify-content: center;
@@ -64,6 +68,7 @@ a {
 }
 
 footer {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +77,8 @@ footer {
     color: #fff;
     text-align: center;
     height: 40px;
+    min-width: 100%;
+    bottom: 0;
     
 }
 footer p {
