@@ -17,12 +17,12 @@
     font-family: monospace;
 }
 .introp {
-    background-color: rgb(221, 225, 156);
+    background-color: rgb(37, 228, 168);
     height: 180px;
-    border: red;
 }
 .main {
     padding-bottom: 10px;
+    padding-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.8em;
 }
@@ -31,6 +31,10 @@
 }
 
 .experp {
+    background-color: rgb(225, 159, 108);
+    height: 180px;
+}
+.contap {
     background-color: rgb(221, 225, 156);
     height: 180px;
 }
