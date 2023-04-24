@@ -35,7 +35,9 @@ a {
 .home {
     border: 2px solid rgb(107, 83, 83);
     border-radius: 10px;
-    margin: auto;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 900px;
     text-align: center;
     display: flex;
@@ -68,6 +70,9 @@ a {
     border: 4px solid rgb(103, 94, 94);
     border-radius: 45px;
     margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 .main {
     width: 20px;
@@ -90,14 +95,19 @@ a {
 }
 
 .experp {
+    background-color: rgb(238, 235, 235);
+    height: auto;
+    width: 900px;
     border: 4px solid rgb(103, 94, 94);
     border-radius: 45px;
-    background-color: rgb(238, 235, 235);
-    height: 180px;
     margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 .contap {
-    height: 100%;
+    height: auto;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -110,7 +120,7 @@ a {
 .apps {
     display: flex;
     background-color: whitesmoke;
-    padding: 7px;
+    padding: 40px;
     font-family: monospace;
     justify-content: center;
     justify-content: space-evenly;
@@ -182,6 +192,7 @@ a {
     margin: 5px;
 }
 form {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     max-width: 400px;
