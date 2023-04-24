@@ -43,6 +43,23 @@ a {
 }
 .home span {
     font-size: 20px;
+    
+}
+.imageme {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imageme h1 {
+    font-family: monospace;
+}
+.imageme img {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 100px;
+
 }
 .introp {
     background-color: rgb(37, 228, 168);
