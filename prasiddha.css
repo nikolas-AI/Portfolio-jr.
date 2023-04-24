@@ -9,6 +9,7 @@
     color: aqua;
     height: 55px;
     font-size: 3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #navi {
     height: 50px;
@@ -31,8 +32,17 @@ a {
     color: rgb(43, 238, 9);
     text-decoration: none;
 }
+.home {
+    border: 2px solid rgb(107, 83, 83);
+    border-radius: 10px;
+    margin: 20px;
+    width: 900px;
+    text-align: center;
+    margin-left: 300px;
+    padding: 5px;
+}
 .home span {
-    font-size: 40px;
+    font-size: 20px;
 }
 .introp {
     background-color: rgb(37, 228, 168);
@@ -73,15 +83,15 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 5px solid red;
+    border: 5px solid rgb(132, 125, 125);
     border-radius: 45px;
-    background-color: #dde19c;
-    margin: 5px;
+    background-color: whitesmoke;
+    margin: 50px;
 
 }
 .apps {
     display: flex;
-    background-color: #dde19c;
+    background-color: whitesmoke;
     padding: 7px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     justify-content: center;
@@ -89,7 +99,7 @@ a {
 
 }
 .buttonT  {
-    background-color: #dde19c; 
+    background-color: whitesmoke; 
     border: none;
     width:35px;
     border-radius: 100%;
@@ -97,7 +107,7 @@ a {
     justify-items: center;
 }
 .buttonT img {
-    background-color: #dde19c; 
+    background-color: whitesmoke; 
     width: 50px;
     max-height: 50px;
     object-fit: contain;
@@ -111,13 +121,13 @@ a {
 .buttonF  {
     display: flex;
     justify-content: center;
-    background-color: #dde19c; 
+    background-color: whitesmoke; 
     border: none;
     width:35px;
     
 }
 .buttonF img {
-    background-color: #dde19c; 
+    background-color: whitesmoke; 
     width: 50px;
     max-height: 50px;
     object-fit: contain;
@@ -132,7 +142,7 @@ a {
     display: flex;
     align-items: center;
     justify-items: left;
-    background-color: #dde19c; 
+    background-color: whitesmoke; 
     border: none;
     width: 20px;
 
@@ -192,7 +202,6 @@ label:hover {
 }
 
 footer {
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
