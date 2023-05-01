@@ -63,12 +63,12 @@ a {
     height: 500px;
     margin: 20px;
     border-radius: 100px;
-    box-shadow: 0 0 50px cyan;
+    transition: box-shadow .75s;
 }
 .imageme img:hover {
-    box-shadow: 0 0 50px cyan,
-    0 0 75px cyan, 0 0 95px cyan,
-    0 0 135px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px rgb(21, 21, 21),
+    0 0 25px rgb(12, 13, 13), 0 0 55px rgb(115, 120, 120),
+    0 0 65px rgb(115, 120, 120), 0 0 95px rgb(115, 120, 120);
 }
 .introp {
     background-color: rgb(238, 235, 235);
