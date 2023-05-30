@@ -3,12 +3,11 @@
     min-height: 100%;
 }
 #welc {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     background: black;
     color: rgb(249, 252, 252);
     border-radius: 10px;
-    height: 55px;
+    min-height: 55px;
     font-size: 3em;
     font-family:monospace;
 }
@@ -40,15 +39,15 @@ a {
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    max-width: 900px;
     text-align: center;
     display: flex;
     padding: 5px;
 }
 .home span {
     font-size: 20px;
-    
 }
+
 .imageme {
     display: flex;
     align-items: center;
@@ -66,14 +65,14 @@ a {
     transition: box-shadow .75s;
 }
 .imageme img:hover {
-    box-shadow: 0 0 5px rgb(21, 21, 21),
-    0 0 25px rgb(12, 13, 13), 0 0 55px rgb(115, 120, 120),
-    0 0 65px rgb(115, 120, 120), 0 0 95px rgb(115, 120, 120);
+    box-shadow: 0 0 50px rgb(21, 21, 21),
+    0 0 10px rgb(54, 56, 56), 0 0 55px rgb(115, 120, 120),
+    0 0 65px rgb(115, 120, 120), 0 0 100px rgb(115, 120, 120);
 }
 .introp {
     background-color: rgb(238, 235, 235);
     height: auto;
-    width: 900px;
+    max-width: 900px;
     border: 4px solid rgb(103, 94, 94);
     border-radius: 45px;
     margin: 50px;
@@ -104,7 +103,7 @@ a {
 .experp {
     background-color: rgb(238, 235, 235);
     height: auto;
-    width: 900px;
+    max-width: 900px;
     border: 4px solid rgb(103, 94, 94);
     border-radius: 45px;
     margin: 50px;
@@ -246,7 +245,7 @@ footer {
     color: #fff;
     text-align: center;
     height: 40px;
-    min-width: 100%;
+    max-width: 100%;
     bottom: 0;
     
 }
